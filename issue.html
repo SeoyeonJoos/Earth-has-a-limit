@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>The Earth Has a Limit | About the Issue</title>
+  <style>
+:root {
+  --green: #2f6b3f;
+  --dark: #1d3a26;
+  --light: #f3f7f2;
+  --text: #222;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: var(--text);
+  line-height: 1.6;
+  background: #fff;
+}
+header {
+  background: var(--dark);
+  color: #fff;
+  padding: 12px 20px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+header .brand { font-weight: bold; font-size: 1.1rem; }
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 16px;
+  padding-bottom: 2px;
+}
+nav a:hover, nav a.active { border-bottom: 2px solid #9ad7a8; }
+main { max-width: 960px; margin: 0 auto; padding: 24px 20px; }
+.hero {
+  background: var(--light);
+  text-align: center;
+  padding: 48px 20px;
+}
+.hero h1 { font-size: 2.4rem; margin: 0 0 6px; color: var(--dark); }
+.hero .slogan { font-size: 1.3rem; color: var(--green); margin: 0 0 10px; font-weight: bold; }
+.hero h2 { margin: 18px 0 8px; font-size: 1rem; letter-spacing: 2px; }
+.hero p { max-width: 700px; margin: 10px auto; }
+.btn {
+  display: inline-block;
+  background: var(--green);
+  color: #fff;
+  padding: 10px 20px;
+  margin: 6px;
+  text-decoration: none;
+  border-radius: 4px;
+}
+.btn:hover { background: var(--dark); }
+h2, h3 { color: var(--dark); }
+.stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+  gap: 16px;
+  margin: 20px 0;
+}
+.stat { border: 1px solid #cfdccf; border-radius: 6px; padding: 16px; background: var(--light); }
+.stat .num { font-size: 1.8rem; font-weight: bold; color: var(--green); }
+.stat .label { font-weight: bold; }
+.stat .src { font-size: 0.85rem; color: #555; }
+.two-col { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; }
+.placeholder {
+  background: #e6ece5;
+  border: 2px dashed #9bb59f;
+  padding: 40px 16px;
+  text-align: center;
+  color: #556;
+  margin: 10px 0;
+}
+.todo { background: #fff6d6; padding: 2px 6px; border-radius: 3px; font-size: 0.9rem; }
+form label { display: block; margin-top: 12px; font-weight: bold; }
+form input, form textarea { width: 100%; padding: 8px; font: inherit; }
+form button { margin-top: 14px; border: 0; cursor: pointer; font: inherit; }
+footer {
+  background: var(--light);
+  border-top: 1px solid #cfdccf;
+  text-align: center;
+  padding: 16px;
+  font-size: 0.9rem;
+  color: #444;
+}
+
+</style>
+</head>
+<body>
+  <header>
+    <span class="brand">The Earth Has a Limit</span>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="issue.html" class="active">About the Issue</a>
+      <a href="solutions.html">Solutions</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <h1>About the Issue</h1>
+
+    <h2>Description of the Issue</h2>
+    <p>Human activities are putting growing pressure on forests, oceans, wildlife, and other natural resources. Habitat destruction, pollution, unsustainable consumption, and climate change threaten the ecosystems that provide food, clean water, and a stable climate.</p>
+
+    <h2>Causes and Effects</h2>
+    <div class="two-col">
+      <div>
+        <h3>Causes</h3>
+        <ul>
+          <li>Habitat destruction</li>
+          <li>Pollution and plastic waste</li>
+          <li>Unsustainable resource consumption</li>
+          <li>Climate change</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Effects</h3>
+        <ul>
+          <li>Declining wildlife populations</li>
+          <li>Threatened species</li>
+          <li>Loss of forests and natural habitats</li>
+          <li>Pressure on food, water, and climate stability</li>
+        </ul>
+      </div>
+    </div>
+
+    <h2>The Reality in Numbers</h2>
+    <div class="stats">
+      <div class="stat">
+        <div class="num">73%</div>
+        <div class="label">Wildlife Population Decline</div>
+        <p>The average size of monitored wildlife populations declined by 73% globally between 1970 and 2022.</p>
+        <div class="src">Source: WWF, Living Planet Report 2026.</div>
+      </div>
+      <div class="stat">
+        <div class="num">1,106</div>
+        <div class="label">Threatened Fauna Species</div>
+        <p>The Philippines recorded 1,106 threatened fauna species in 2023.</p>
+        <div class="src">Source: Philippine Statistics Authority, Compendium of Philippine Environment Statistics.</div>
+      </div>
+      <div class="stat">
+        <div class="num">2.7 Million Tons</div>
+        <div class="label">Plastic Waste</div>
+        <p>An estimated 2.7 million tons of plastic waste are generated annually in the Philippines.</p>
+        <div class="src">Source: World Bank.</div>
+      </div>
+      <div class="stat">
+        <div class="num">7.23 Million Hectares</div>
+        <div class="label">Forest Area</div>
+        <p>The Philippines had approximately 7.23 million hectares of forest area in 2020.</p>
+        <div class="src">Source: Philippine Statistics Authority.</div>
+      </div>
+    </div>
+
+    <h2 id="sources">Sources</h2>
+    <ul>
+      <li>WWF, Living Planet Report 2026. 
+      <li>Philippine Statistics Authority, Compendium of Philippine Environment Statistics. 
+      <li>World Bank. 
+      <li>Sources according to Wennard
+    </ul>
+  </main>
+
+  <footer>The Earth Has a Limit &middot; Empowerment Technologies Project &middot; Upper Bicutan National High School</footer>
+</body>
+</html>
